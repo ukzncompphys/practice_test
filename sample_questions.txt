@@ -56,4 +56,4 @@ array into a matrix.
 MCMC:  Take the output Markov chain from the class MCMC example.  As
 discuss in class, its power spectrum (the absolute value of its
 Fourier transform squared) should be flat at low frequencies and slope
-down at high frequencies.  Do ou
+down at high frequencies.  Do you see that?  If not, why might that be the case?
