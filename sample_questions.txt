@@ -36,7 +36,6 @@ which the work required for an direct force calculation and a grid
 calculation are equal.  If you have more particles than this critical
 value, would it be faster to use a grid-based or a direct gravity calculator?
 
-****New*****
 model fitting:  we saw in class that if you have data that depend
 linearly on a model, <d>=Am, that chi^2 can be written down as
 (d-Am)^T N^-1 (d-Am).  Show that ignoring the noise, this has solution
@@ -52,3 +51,9 @@ matrix multiply of arrays, alternatively numpy.matrix will turn an
 array into a matrix.
 
 
+**** NEW ****
+
+MCMC:  Take the output Markov chain from the class MCMC example.  As
+discuss in class, its power spectrum (the absolute value of its
+Fourier transform squared) should be flat at low frequencies and slope
+down at high frequencies.  Do ou
